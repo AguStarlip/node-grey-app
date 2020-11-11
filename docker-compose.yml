@@ -1,0 +1,18 @@
+version: "3"
+
+services: 
+    web:
+        container_name: gray_app
+        restart: always
+        build: .
+        ports:
+            - "3700:3000"
+        links:
+            - mongo
+        volumes: 
+            - .:/usr/api/app
+    mongo:
+        container_name: gray_db
+        image: mongo
+        ports:
+            - "27019:27017"
