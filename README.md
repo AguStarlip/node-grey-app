@@ -1,1 +1,3 @@
-## app de prueba con implementacion de contenedores utilizando docker y docker compose
+## grey-app
+
+- app de prueba con implementacion de contenedores utilizando docker y docker compose
