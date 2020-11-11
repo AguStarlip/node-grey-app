@@ -1,1 +1,1 @@
-## app de prueba con implementación de docker
+## app de prueba con implementacion de contenedores utilizando docker y docker compose
